@@ -1,6 +1,6 @@
 //here the event starts
 module.exports = client => {
-    console.error();
+    console.log(`You have been disconnected at ${new Date()}.`.red)
 }
 /**
   * @INFO
